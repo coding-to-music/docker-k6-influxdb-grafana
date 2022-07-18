@@ -1,11 +1,40 @@
+# docker-k6-influxdb-grafana
+
+# 🚀 Sample of using k6 to load test api with docker swarm spinning up influxdb and grafana 🚀
+
+https://github.com/coding-to-music/docker-k6-influxdb-grafana
+
+From / By Michal Franc https://github.com/michal-franc
+
+https://github.com/michal-franc/docker-k6-influxdb-grafana
+
+## Environment variables:
+
+```java
+
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/docker-k6-influxdb-grafana.git
+git push -u origin main
+```
+
 Sample project showing how to use `k6` to load test a simple `api` with `influxdb` as a time series data target and `grafana` for visualizations.
 
 Dependancies:
+
 - docker-compose -> `sudo apt-get install docker-compose`
 - go - https://golang.org/dl/
 - k6 - https://github.com/loadimpact/k6 if you have go 10+ installation is pretty simple `go get github.com/loadimpact/k6`
 
-based on 
+based on
 https://github.com/nicolargo/docker-influxdb-grafana
 
 ### GO minimal API
@@ -21,16 +50,16 @@ Grafana uses provisioning to spin up an instance with automatically configured d
 ### Makefile and how to run the sample
 
 To run the sample use `make demo`. This automatically creates:
+
 - ephemeral start file to keep file target for Make indicating that `start step` in the future is not neccessary unless there was a change in the file, to simplify subsequent `k6` `runs` of load_test
 - folders to hold data for Grafana and InfluxDB
 - docker swarm with InfluxDB and Grafana instance
 - load_tests database on InfluxDB
 - compiles minimal go app
 - starts minimal go app in paraller process keeping the PID in file for later kill
-- starts k6 to generate load test data and sends it to InfluxDB 
+- starts k6 to generate load test data and sends it to InfluxDB
 
 After `make run` you need to open browser and go to `localhost:3000` log in as `admin:admin` and open the dashboard.
-
 
 ### Running custom k6 file
 
@@ -39,6 +68,7 @@ To run custom file with grafana available on port `:3000` use `make run file=<yo
 ### Cleanup
 
 To cleanup run `make clean` - this command:
+
 - removes data folder with `grafana` and `influxdb` data
 - stops docker swarm and removes containers
 - cleans up ephemeral `start` file

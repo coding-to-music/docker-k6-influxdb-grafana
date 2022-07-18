@@ -1,0 +1,21 @@
+{
+  "name": "docker-k6-influxdb-grafana",
+  "version": "1.0.0",
+  "description": "Sample project showing how to use `k6` to load test a simple `api` with `influxdb` as a time series data target and `grafana` for visualizations.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "git add . && git commit -m Build && git push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michal-franc/docker-k6-influxdb-grafana.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michal-franc/docker-k6-influxdb-grafana/issues"
+  },
+  "homepage": "https://github.com/michal-franc/docker-k6-influxdb-grafana#readme"
+}
