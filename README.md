@@ -24,6 +24,7 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin git@github.com:coding-to-music/docker-k6-influxdb-grafana.git
 git push -u origin main
+
 ```
 
 Sample project showing how to use `k6` to load test a simple `api` with `influxdb` as a time series data target and `grafana` for visualizations.
