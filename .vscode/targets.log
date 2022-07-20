@@ -1,0 +1,302 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+ 
+# Built for x86_64-pc-linux-gnu
+ 
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+ 
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+ 
+# This is free software: you are free to change and redistribute it.
+ 
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+ 
+# Make data base, printed on Wed Jul 20 03:19:05 2022
+ 
+
+# Variables
+ 
+
+ 
+# automatic
+ 
+<D = $(patsubst %/,%,$(dir $<))
+ 
+# automatic
+ 
+?F = $(notdir $?)
+ 
+# default
+ 
+.SHELLFLAGS := -c
+ 
+# environment
+ 
+VSCODE_AGENT_FOLDER = /home/tmc/.vscode-server
+ 
+# environment
+ 
+NVM_INC = /home/tmc/.nvm/versions/node/v16.14.2/include/node
+ 
+# automatic
+ 
+?D = $(patsubst %/,%,$(dir $?))
+ 
+# automatic
+ 
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /mnt/volume_nyc1_01/docker-k6-influxdb-grafana
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /home/tmc/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/node
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+DEBUG = WARN
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DIGITALOCEAN_ACCESS_TOKEN = 4663451f0f53469178b5942e09dfef41532c113e27d0decaa537dc52733174cc
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/tmc
+# environment
+SSH_CONNECTION = 209.6.143.60 33212 143.244.171.118 22
+# environment
+PATH = /home/tmc/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/home/tmc/.local/bin:/home/tmc/.yarn/bin:/home/tmc/.config/yarn/global/node_modules/.bin:/mnt/volume_nyc1_01/google-cloud-sdk/bin:/root/.deno/bin:/home/tmc/.nvm/versions/node/v16.14.2/bin:/home/tmc/.cargo/bin:/home/tmc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/tmc/.local/bin
+# environment
+NVM_BIN = /home/tmc/.nvm/versions/node/v16.14.2/bin
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-d970cdfd-310d-491c-85ee-1e295fb35769.sock
+# environment
+DO_PAT = 4663451f0f53469178b5942e09dfef41532c113e27d0decaa537dc52733174cc
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /mnt/volume_nyc1_01/docker-k6-influxdb-grafana
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/tmc
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = tmc
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+NVM_CD_FLAGS = 
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = tmc
+# makefile
+.DEFAULT_GOAL := run
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 209.6.143.60 33212 22
+# environment
+NVM_DIR = /home/tmc/.nvm
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/tmc/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/helpers/browser.sh
+# environment
+DENO_INSTALL = /root/.deno
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+MOTD_SHOWN = pam
+# variable set hash-table stats:
+# Load=69/1024=7%, Rehash=0, Collisions=7/94=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2048, inode 274898010): 15 files, no impossibilities.
+
+# 15 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+stop:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 20):
+	docker-compose stop
+	docker-compose rm -f
+	rm start 
+
+data:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 12):
+	mkdir -p data/grafana
+	sudo chown 472:472 data/grafana
+	mkdir -p data/influxdb
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+.PHONY: run load-test
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+demo: start minimal-api/minimal-api
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 31):
+	./minimal-api/minimal-api & echo $$! > api.PID
+	k6 run --out influxdb=http://localhost:8086/load_tests load-tests/load_test.js
+	kill `cat api.PID`
+	rm api.PID
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-18 02:01:06.572750805
+#  File has been updated.
+#  Successfully updated.
+
+start: data
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 6):
+	touch start 
+	docker-compose up -d
+	curl -XPOST 'http://localhost:8086/query' --data-urlencode 'q=CREATE DATABASE load_tests'
+	sleep 2
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: start load-test
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean: stop
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 17):
+	sudo rm -rf data 
+
+load-test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 25):
+	k6 run --out influxdb=http://localhost:8086/load_tests $(file)
+
+minimal-api/minimal-api:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 28):
+	cd minimal-api && go build
+
+# files hash-table stats:
+# Load=13/1024=1%, Rehash=0, Collisions=0/36=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 29 / storage = 264 B / avg = 9 B
+# current buf: size = 8162 B / used = 264 B / count = 29 / avg = 9 B
+
+# strcache performance: lookups = 50 / hit rate = 42%
+# hash-table stats:
+# Load=29/8192=0%, Rehash=0, Collisions=1/50=2%
+# Finished Make data base on Wed Jul 20 03:19:05 2022
+
+ 

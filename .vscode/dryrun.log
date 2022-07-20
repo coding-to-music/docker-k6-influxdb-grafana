@@ -1,0 +1,12 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/volume_nyc1_01/docker-k6-influxdb-grafana'
+mkdir -p data/grafana
+sudo chown 472:472 data/grafana
+mkdir -p data/influxdb
+touch start 
+docker-compose up -d
+curl -XPOST 'http://localhost:8086/query' --data-urlencode 'q=CREATE DATABASE load_tests'
+sleep 2
+k6 run --out influxdb=http://localhost:8086/load_tests 
+make: Leaving directory '/mnt/volume_nyc1_01/docker-k6-influxdb-grafana'
+ 
