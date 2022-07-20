@@ -1,3 +1,6 @@
 data
 minimal-api
 start
+.env
+.vscode/*
+.vscode
