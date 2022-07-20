@@ -1,1 +1,0 @@
-{"buildTargets":["clean","data","demo","load-test","minimal-api/minimal-api","run","start","stop"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
