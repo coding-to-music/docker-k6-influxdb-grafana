@@ -4,3 +4,4 @@ start
 .env
 .vscode/*
 .vscode
+api.PID
